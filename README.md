@@ -153,8 +153,8 @@ Unused FastEthernet and GigabitEthernet ports were administratively disabled, wh
 ## Project Files
 
 - `README.md` — Project documentation
-- `.pkt` file — Cisco Packet Tracer lab file (to be added)
-- `screenshots/` — Evidence of topology, configuration, and verification (to be added)
+- `.pkt` file — Cisco Packet Tracer lab file
+- `screenshots/` — Evidence of topology, configuration, and verification
 
 ## Future Improvements
 
