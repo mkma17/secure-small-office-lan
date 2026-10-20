@@ -113,6 +113,33 @@ show interfaces status
 - The lab does not yet include a router, inter-VLAN routing, centralized logging, or SIEM integration.
 - The `enable secret` algorithm and available security features depend on the simulated IOS version.
 
+## Lab Evidence
+
+### 1. Network Topology
+
+The topology consists of one Cisco Catalyst 2960 switch and two PCs connected through access ports.
+
+![Network topology](screenshots/Topology.png)
+
+### 2. Connectivity Verification
+
+PC0 successfully pinged PC1 at `192.168.10.11`. Four packets were received with zero packet loss.
+
+![Successful ping test](screenshots/connect-test.png)
+
+### 3. Port Security Verification
+
+The secure MAC address table shows one sticky secure MAC address learned on each endpoint port.
+
+![Port Security verification](screenshots/port-security-verification.png)
+
+### 4. Unused Port Shutdown
+
+Unused FastEthernet and GigabitEthernet ports were administratively disabled, while the two endpoint ports remained connected.
+
+![Unused ports disabled](screenshots/unused-ports.png)
+
+
 ## Skills Practiced
 
 - Cisco IOS CLI configuration
